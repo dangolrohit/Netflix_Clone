@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Teko&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 74, 75);
+    margin-bottom: 5px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 200px;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 150px;
+}
+
+.btn{
+  background-color:rgb(229, 9, 20);
+  padding: 0.50rem 0.75rem;
+  color: white;
+  font-weight: 500;
+  font-size: 0.875rem;
+  position: relative;
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.hero{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(./img/cover.jpg);
+   
+     
+}
+.hero2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+}
+.hero2 h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.hero2 p{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem;
+}
+
+input{
+    background: transparent;
+    width: 400px;
+    height: 45px;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 100%,rgba(180, 166, 166, 0.8) 100%);
+    border: 0.1px solid white;
+    border-radius: 0.25rem;
+    color: white;
+    padding: 0px;
+
+}
+
+.submit{
+    background-color:rgb(229, 9, 20);
+    padding: 12px 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.10rem;
+    position: relative;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.tv{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px;
+    margin: 10px 0px 0px 0px;
+    gap: 5px;
+}
+
+
+.tvinfo{
+    margin-top:20px ;
+}
+.tvinfo h2{
+    font-size: 50px;
+}
+
+.tvinfo p{
+    font-size: 25px;
+}
+
+.download{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px;
+    margin: 010px 0px 0px 0px;
+    gap: 5px;
+}
+
+
+.downinfo{
+    margin:-40px ;
+}
+.downinfo h2{
+    font-size: 50px;
+}
+
+.downinfo p{
+    font-size: 25px;
+}
+
+.img{
+    height: 25rem;
+    margin-top: -100px;
+}
+
+
+.watch{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 150px;
+    margin: 010px 0px 0px 0px;
+    gap: 50px;
+}
+
+
+.watchinfo{
+    margin:-40px ;
+}
+.watchinfo h2{
+    font-size: 50px;
+}
+
+.watchinfo p{
+    font-size: 25px;
+}
+
+.kids{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 150px;
+    margin: 10px 0px 0px 0px;
+    gap: 50px;
+}
+
+
+.kidsinfo{
+    margin:-40px ;
+}
+.kidsinfo h2{
+    font-size: 50px;
+}
+
+.kidsinfo p{
+    font-size: 25px;
+}
+
+
+
+
+
+/* Questins  */
+
+
+.questions{
+    background-color: black;
+    display: block;
+    color: white;
+    padding-top: 50px;
+    margin: 10px 0px 0px 0px;
+    gap: 50px;
+}
+.questions h2{
+    text-align: center;
+}
+.qna{
+    display: block;
+    text-align: left;
+    margin: 50px 250px;
+
+}
+.email{
+    align-items: center;
+}
+#qnah2{
+    font-size: 60px;
+}
+
+.qna1{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    font-size: 25px;
+    height: 3rem;
+    background-color: rgb(51, 51, 51);
+    margin: 10px;
+}
+
+.questions h3{
+    margin-left: 1.75rem;
+}
+
+.plus{
+    margin-right: 1.75rem;
+
+}
+.emailtop{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+/* Contact us  */
+.contacts-container{
+    background-color: black;
+    display: block;
+    color: white;
+    padding-top: 50px;
+    margin: 10px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.contactus{
+    margin-left: 200px;
+    list-style-type: none;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 200px ;    
+}
+
+.contacts-container a{
+    text-decoration: underline;
+    padding: 2px;
+}
+
+.contacts-container a:hover{
+    color: rgb(36, 182, 92);
+    text-decoration: underline;
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'inherit';
+    display: flex;
+    align-items: center;
+}
+
+.questions a:hover{
+    color: rgb(36, 182, 92);
+}
+
+.last{
+    display: inline-block;
+    margin: 2px 2px 50px 2px;
+    padding: 5px;
+    padding: 20px 0px 0px 200px;
+
+}
+
+.last a{
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
